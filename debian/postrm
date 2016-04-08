@@ -1,0 +1,40 @@
+#!/bin/bash
+
+set -e
+
+. /usr/share/debconf/confmodule
+
+# unHide deprecated window decorations
+function show_deprecated {
+    dpkg-divert --package netrunner-settings-theming --remove --rename --divert /usr/share/netrunner/hidden/oxy-yellow_index.theme /usr/share/icons/oxy-yellow/index.theme 
+    dpkg-divert --package netrunner-settings-theming --remove --rename --divert /usr/share/netrunner/hidden/oxy-zion_index.theme /usr/share/icons/oxy-zion/index.theme
+    # Show gtkbreeze
+    dpkg-divert --package netrunner-settings-theming --remove --rename --divert /usr/share/netrunner/hidden/gtkbreeze.upd /usr/share/kconf_update/gtkbreeze.upd 
+}
+
+case "$1" in
+    remove|purge)
+        #These files may have been created during installation
+        rm -f /root/.gtkrc-2.0
+        rm -f /root/.gtkrc-2.0-kde4
+        rm -f /root/.config/gtk-3.0/settings.ini
+        rm -f /etc/skel/.gtkrc-2.0
+        rm -f /etc/skel/.gtkrc-2.0-kde4
+        rm -f /etc/skel/.config/gtk-3.0/settings.ini
+        show_deprecated
+    ;;
+
+    upgrade|abort-upgrade|abort-remove|abort-deconfigure)
+
+    ;;
+
+    *)
+        echo "postrm called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0
+
