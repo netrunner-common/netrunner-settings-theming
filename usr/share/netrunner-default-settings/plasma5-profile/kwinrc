@@ -62,6 +62,7 @@ windowgeometryEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_translucencyEnabled=false
+kwin4_effect_windowapertureEnabled=false
 
 [TabBox]
 BorderActivate=9
