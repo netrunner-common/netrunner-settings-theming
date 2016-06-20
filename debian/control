@@ -1,15 +1,15 @@
-Source: netrunner-settings-theming
+Source: default-settings-theming
 Section: admin
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
-Package: netrunner-settings-theming
+Package: default-settings-theming
 Architecture: all
 Conflicts: kubuntu-settings-desktop
 Replaces: netrunner-default-settings (<< 1.6.1)
 Breaks: netrunner-default-settings (<< 1.6.1)
 Depends: netrunner-artwork
-Description: Netrunner specific theme settings
-  This package provides the default settings for theming in Netrunner.
+Description: Default specific theme settings
+  This package provides the default settings for theming.

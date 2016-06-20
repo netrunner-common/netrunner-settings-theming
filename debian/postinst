@@ -24,26 +24,26 @@ set -e
 
 if [ ! -e /root/.gtkrc-2.0 ]
 then
-  cp /usr/share/netrunner-default-settings/dot-gtkrc-2.0-kde4 /root/.gtkrc-2.0
-  cp /usr/share/netrunner-default-settings/dot-gtkrc-2.0-kde4 /root/.gtkrc-2.0-kde4
+  cp /usr/share/default-settings/dot-gtkrc-2.0-kde4 /root/.gtkrc-2.0
+  cp /usr/share/default-settings/dot-gtkrc-2.0-kde4 /root/.gtkrc-2.0-kde4
 fi
 if [ ! -e /root/.config/gtk-3.0/settings.ini ]
 then
   mkdir -p /root/.config/gtk-3.0
-  cp /usr/share/netrunner-default-settings/settings.ini /root/.config/gtk-3.0/settings.ini
+  cp /usr/share/default-settings/settings.ini /root/.config/gtk-3.0/settings.ini
 fi
 
 # Same for users
 
 if [ ! -e /etc/skel/.gtkrc-2.0 ]
 then
-  cp /usr/share/netrunner-default-settings/dot-gtkrc-2.0-kde4 /etc/skel/.gtkrc-2.0
-  cp /usr/share/netrunner-default-settings/dot-gtkrc-2.0-kde4 /etc/skel/.gtkrc-2.0-kde4
+  cp /usr/share/default-settings/dot-gtkrc-2.0-kde4 /etc/skel/.gtkrc-2.0
+  cp /usr/share/default-settings/dot-gtkrc-2.0-kde4 /etc/skel/.gtkrc-2.0-kde4
 fi
 if [ ! -e /etc/skel/.config/gtk-3.0/settings.ini ]
 then
   mkdir -p /etc/skel/.config/gtk-3.0
-  cp /usr/share/netrunner-default-settings/settings.ini /etc/skel/.config/gtk-3.0/settings.ini
+  cp /usr/share/default-settings/settings.ini /etc/skel/.config/gtk-3.0/settings.ini
 fi
 
 case "$1" in
