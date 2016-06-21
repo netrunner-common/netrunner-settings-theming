@@ -67,9 +67,9 @@ kwin4_effect_windowapertureEnabled=false
 [TabBox]
 BorderActivate=9
 BorderAlternativeActivate=9
-DesktopLayout=org.kde.netrunner-blue-x.desktop
-DesktopListLayout=org.kde.netrunner-blue-x.desktop
-LayoutName=org.kde.netrunner-blue-x.desktop
+DesktopLayout=org.kde.netrunner-core.desktop
+DesktopListLayout=org.kde.netrunner-core.desktop
+LayoutName=org.kde.netrunner-core.desktop
 
 [Windows]
 ActiveMouseScreen=false
