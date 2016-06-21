@@ -1,11 +1,11 @@
-Source: default-settings-theming
+Source: netrunner-settings-theming
 Section: admin
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
-Package: default-settings-theming
+Package: netrunner-settings-theming
 Architecture: all
 Conflicts: kubuntu-settings-desktop
 Replaces: netrunner-default-settings (<< 1.6.1)
