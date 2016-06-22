@@ -1,16 +1,19 @@
 [Compositing]
 AnimationSpeed=1
 GLColorCorrection=false
-GLCore=false
-GLPlatformInterface=glx
 GLPreferBufferSwap=a
-GLTextureFilter=2
+GLTextureFilter=0
 HiddenPreviews=5
 UnredirectFullscreen=false
 XRenderSmoothScale=false
 
 [Desktops]
 Number=1
+
+[Effect-Cube]
+BorderActivate=9
+BorderActivateCylinder=9
+BorderActivateSphere=9
 
 [Effect-DesktopGrid]
 BorderActivate=9
@@ -52,6 +55,7 @@ CommandWindow3=Activate and pass click
 CommandWindowWheel=Scroll
 
 [Plugins]
+blurEnabled=false
 contrastEnabled=false
 enforcedecoEnabled=false
 screenedgeEnabled=false
@@ -59,17 +63,26 @@ slidingpopupsEnabled=false
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
 windowgeometryEnabled=false
-kwin4_effect_fadeEnabled=true
+kwin4_effect_fadeEnabled=false
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_translucencyEnabled=false
+kwin4_effect_loginEnabled=false
+logoutEnabled=false
+kwin4_effect_translucencyEnabled=false
 kwin4_effect_windowapertureEnabled=false
+desktopgridEnabled=false
+presentwindowsEnabled=false
+
+[Style]
+BorderSize=1
+ButtonsOnLeft=M
+ButtonsOnRight=IA_X
+CustomButtonPositions=true
+ShowToolTips=false
 
 [TabBox]
 BorderActivate=9
 BorderAlternativeActivate=9
-DesktopLayout=org.kde.netrunner-core.desktop
-DesktopListLayout=org.kde.netrunner-core.desktop
-LayoutName=org.kde.netrunner-core.desktop
 
 [Windows]
 ActiveMouseScreen=false
@@ -105,8 +118,6 @@ TitlebarDoubleClickCommand=Maximize
 WindowSnapZone=10
 
 [org.kde.kdecoration2]
-library=org.kde.breeze
-theme[$d]
 BorderSize=Normal
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
