@@ -3,4 +3,4 @@ Timeout=0
 Autolock=false
 
 [Greeter]
-Theme=org.kde.netrunner-core.desktop
+Theme=org.kde.netrunner-blue-x.desktop
