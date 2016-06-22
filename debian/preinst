@@ -4,10 +4,10 @@
 function hide_deprecated {
     mkdir -p /usr/share/netrunner/hidden
 
-    dpkg-divert --package default-settings-theming --add --rename --divert /usr/share/netrunner/hidden/oxy-yellow_index.theme /usr/share/icons/oxy-yellow/index.theme 
-    dpkg-divert --package default-settings-theming --add --rename --divert /usr/share/netrunner/hidden/oxy-zion_index.theme /usr/share/icons/oxy-zion/index.theme
+    dpkg-divert --package netrunner-settings-theming --add --rename --divert /usr/share/netrunner/hidden/oxy-yellow_index.theme /usr/share/icons/oxy-yellow/index.theme 
+    dpkg-divert --package netrunner-settings-theming --add --rename --divert /usr/share/netrunner/hidden/oxy-zion_index.theme /usr/share/icons/oxy-zion/index.theme
     # Hide gtkbreeze (We don't want gtk theme to be overwritten)
-    dpkg-divert --package default-settings-theming --add --rename --divert /usr/share/netrunner/hidden/gtkbreeze.upd /usr/share/kconf_update/gtkbreeze.upd 
+    dpkg-divert --package netrunner-settings-theming --add --rename --divert /usr/share/netrunner/hidden/gtkbreeze.upd /usr/share/kconf_update/gtkbreeze.upd 
 }
 
 # if [ install = "$1" -o upgrade = "$1" ]; then
