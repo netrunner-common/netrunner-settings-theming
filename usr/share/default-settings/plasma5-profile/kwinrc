@@ -2,7 +2,7 @@
 AnimationSpeed=1
 GLColorCorrection=false
 GLPreferBufferSwap=a
-GLTextureFilter=0
+GLTextureFilter=2
 HiddenPreviews=5
 UnredirectFullscreen=false
 XRenderSmoothScale=false
