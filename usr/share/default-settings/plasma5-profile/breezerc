@@ -8,3 +8,5 @@ DrawBackgroundGradient=false
 
 [Style]
 AnimationsEnabled=false
+ViewDrawFocusIndicator=false
+WindowDragMode=WD_NONE
