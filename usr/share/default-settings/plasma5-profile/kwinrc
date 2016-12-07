@@ -122,3 +122,4 @@ BorderSize=Normal
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=true
+library=org.kde.breeze
