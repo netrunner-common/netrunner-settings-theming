@@ -29,7 +29,7 @@ InitialZoom=1
 [ElectricBorders]
 Bottom=None
 BottomLeft=None
-BottomRight=ShowDesktop
+BottomRight=None
 Left=None
 Right=None
 Top=None
@@ -55,6 +55,7 @@ CommandWindow3=Activate and pass click
 CommandWindowWheel=Scroll
 
 [Plugins]
+minimizeallEnabled=true
 blurEnabled=false
 contrastEnabled=false
 enforcedecoEnabled=false
@@ -123,3 +124,7 @@ ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=true
 library=org.kde.breeze
+
+[Script-minimizeall]
+BorderActivate=3
+
