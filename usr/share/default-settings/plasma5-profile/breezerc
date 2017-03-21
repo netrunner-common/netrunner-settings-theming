@@ -10,3 +10,5 @@ DrawBackgroundGradient=false
 AnimationsEnabled=false
 ViewDrawFocusIndicator=false
 WindowDragMode=WD_NONE
+ScrollBarAddLineButtons=1
+ScrollBarSubLineButtons=1
