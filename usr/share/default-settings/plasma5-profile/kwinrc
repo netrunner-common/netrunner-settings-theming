@@ -1,5 +1,5 @@
 [Compositing]
-AnimationSpeed=2
+AnimationSpeed=1
 GLColorCorrection=false
 GLPreferBufferSwap=a
 GLTextureFilter=2
