@@ -57,7 +57,7 @@ CommandWindowWheel=Scroll
 [Plugins]
 minimizeallEnabled=true
 blurEnabled=false
-contrastEnabled=false
+contrastEnabled=true
 enforcedecoEnabled=false
 screenedgeEnabled=false
 slidingpopupsEnabled=false
