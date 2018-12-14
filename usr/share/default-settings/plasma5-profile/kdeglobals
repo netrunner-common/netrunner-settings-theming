@@ -130,7 +130,7 @@ Size=32
 
 [General]
 BrowserApplication[$e]=firefox.desktop
-ColorScheme=Carbon
+ColorScheme=KvantumAlt
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
