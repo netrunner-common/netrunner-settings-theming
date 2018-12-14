@@ -145,7 +145,7 @@ fixed=DejaVu Sans Mono,10,-1,5,50,0,0,0,0,0
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 contrast=4
-widgetStyle=breeze
+widgetStyle=kvantum
 SingleClick=false
 
 [KDE-Global GUI Settings]
