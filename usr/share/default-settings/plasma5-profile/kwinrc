@@ -27,8 +27,8 @@ BorderActivateClass=9
 InitialZoom=1
 
 [Effect-Blur]
-BlurStrength=3
-NoiseStrength=14
+BlurStrength=11
+NoiseStrength=10
 
 [ElectricBorders]
 Bottom=None
