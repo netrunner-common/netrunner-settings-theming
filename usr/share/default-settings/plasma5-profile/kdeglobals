@@ -245,3 +245,6 @@ inactiveForeground=20,19,18
 
 [PreviewSettings]
 MaximumRemoteSize=2621440000
+
+[Icons]
+Theme=Obsidian
