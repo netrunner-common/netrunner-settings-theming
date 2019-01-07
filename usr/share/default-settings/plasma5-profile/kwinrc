@@ -14,14 +14,21 @@ Number=1
 BorderActivate=9
 BorderActivateCylinder=9
 BorderActivateSphere=9
+TouchBorderActivate=9
+TouchBorderActivateCylinder=9
+TouchBorderActivateSphere=9
 
 [Effect-DesktopGrid]
 BorderActivate=9
+TouchBorderActivate=9
 
 [Effect-PresentWindows]
 BorderActivate=9
 BorderActivateAll=9
 BorderActivateClass=9
+TouchBorderActivate=7
+TouchBorderActivateAll=9
+TouchBorderActivateClass=9
 
 [Effect-Zoom]
 InitialZoom=1
@@ -88,6 +95,8 @@ ShowToolTips=false
 [TabBox]
 BorderActivate=9
 BorderAlternativeActivate=9
+TouchBorderActivate=9
+TouchBorderAlternativeActivate=9
 
 [Windows]
 ActiveMouseScreen=false
@@ -132,6 +141,7 @@ theme=__aurorae__svg__FormaN
 
 [Script-minimizeall]
 BorderActivate=3
+TouchBorderActivate=9
 
 [TouchEdges]
 Bottom=None
