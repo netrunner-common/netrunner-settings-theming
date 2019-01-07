@@ -133,3 +133,8 @@ theme=__aurorae__svg__FormaN
 [Script-minimizeall]
 BorderActivate=3
 
+[TouchEdges]
+Bottom=None
+Left=None
+Right=None
+Top=None
