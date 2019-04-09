@@ -149,6 +149,8 @@ SingleClick=false
 
 [KFileDialog Settings]
 Show Preview=true
+Show Full Path=True
+View Style=Simple
 
 [KDE-Global GUI Settings]
 GraphicEffectsLevel=6
