@@ -133,11 +133,11 @@ BrowserApplication[$e]=firefox.desktop
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
-font=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+font=Noto Sans,9,-1,5,50,0,0,0,0,0,Regular
+menuFont=Noto Sans,9,-1,5,50,0,0,0,0,0,Regular
 shadeSortColumn=true
-smallestReadableFont=Noto Sans,9,-1,5,50,0,0,0,0,0,Regular
-toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0,Regular
+toolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0,Regular
 fixed=DejaVu Sans Mono,10,-1,5,50,0,0,0,0,0
 
 [KDE]
@@ -241,7 +241,7 @@ ShowToolTips=false
 [WM]
 activeBackground=224,223,222
 activeBlend=75,71,67
-activeFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
+activeFont=Liberation Sans,11,-1,5,50,0,0,0,0,0,Regular
 activeForeground=75,71,67
 inactiveBackground=224,223,222
 inactiveBlend=75,71,67
