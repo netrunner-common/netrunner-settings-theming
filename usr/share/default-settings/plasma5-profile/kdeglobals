@@ -241,7 +241,7 @@ ShowToolTips=false
 [WM]
 activeBackground=224,223,222
 activeBlend=75,71,67
-activeFont=Liberation Sans,10,-1,5,50,0,0,0,0,0,Regular
+activeFont=Liberation Sans,11,-1,5,50,0,0,0,0,0,Regular
 activeForeground=75,71,67
 inactiveBackground=224,223,222
 inactiveBlend=75,71,67
