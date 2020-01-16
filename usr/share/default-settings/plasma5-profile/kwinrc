@@ -84,6 +84,8 @@ kwin4_effect_translucencyEnabled=false
 kwin4_effect_windowapertureEnabled=false
 desktopgridEnabled=false
 presentwindowsEnabled=false
+magiclampEnabled=true
+minimizeanimationEnabled=false
 
 [Style]
 BorderSize=1
