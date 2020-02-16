@@ -6,6 +6,7 @@ ShadowStrength=89
 AnimationsEnabled=false 
 DrawBackgroundGradient=false
 DrawSizeGrip=false
+ButtonSize=ButtonLarge
 
 [Style]
 AnimationsEnabled=false
